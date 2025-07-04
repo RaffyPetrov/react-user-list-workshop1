@@ -6,8 +6,6 @@
 </br>
 </br>
 
-### Live demo of the website can be accessed thanks to heroku - [click here](https://user-list-demo-react.herokuapp.com/?page=1&limit=5).
-
 </br>
 
 ## Getting Started
