@@ -43,7 +43,11 @@ export const UserSection = () => {
       .then(user => {
         setUsers(oldUsers => [...oldUsers, user]);
         closeHandler();
-      });
+      })
+      .catch(err => {
+        console.log('Error creating user:', err);
+        
+      })
   }
 
   return (
